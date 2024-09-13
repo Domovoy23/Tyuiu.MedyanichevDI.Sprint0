@@ -5,11 +5,19 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{29128068-E496-41D0-B28E-0345F8706448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MedyanichevDI.Sprint0.Task0.V0", "Tyuiu.Medyanichevdi.Sprint.Task0.V0\Tyuiu.MedyanichevDI.Sprint0.Task0.V0.csproj", "{782749A1-9F08-4B99-96EE-7EB916F0D864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint0.Task0.V0", "Tyuiu.Medyanichevdi.Sprint.Task0.V0\Tyuiu.MedyanichevDI.Sprint0.Task0.V0.csproj", "{782749A1-9F08-4B99-96EE-7EB916F0D864}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{23CC3C3A-AD07-4829-9165-A363E6998CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MedyanichevDI.Sprint0.Task1.V0", "Tyuiu.MedyanichevDI.Sprint0.Task1.v0\Tyuiu.MedyanichevDI.Sprint0.Task1.V0.csproj", "{34ADA182-E73C-4EE6-B37A-BC5A9F598FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MedyanichevDI.Sprint0.Task1.V0", "Tyuiu.MedyanichevDI.Sprint0.Task1.v0\Tyuiu.MedyanichevDI.Sprint0.Task1.V0.csproj", "{34ADA182-E73C-4EE6-B37A-BC5A9F598FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{1483E021-EEFF-494B-8BC5-69DFDE578B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MedyanichevDI.Sprint0.Task2.V0", "Tyuiu.MedyanichevDI.Sprint0.Task2.V0\Tyuiu.MedyanichevDI.Sprint0.Task2.V0.csproj", "{D76D2C8C-0E19-4AA5-99BB-68E4284A43E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MedyanichevDI.Sprint0.Task2.V0.Lib", "Tyuiu.MedyanichevDI.Sprint0.Task2.V0.Lib\Tyuiu.MedyanichevDI.Sprint0.Task2.V0.Lib.csproj", "{5F248630-CF9A-46EE-B514-9D8F8694FDAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MedyanichevDI.Sprint0.Task2.V0.Test", "Tyuiu.MedyanichevDI.Sprint0.Task2.V0.Test\Tyuiu.MedyanichevDI.Sprint0.Task2.V0.Test.csproj", "{00710D3B-6FD4-4117-8E40-7ED5CB8DFAFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,18 @@ Global
 		{34ADA182-E73C-4EE6-B37A-BC5A9F598FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34ADA182-E73C-4EE6-B37A-BC5A9F598FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34ADA182-E73C-4EE6-B37A-BC5A9F598FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76D2C8C-0E19-4AA5-99BB-68E4284A43E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76D2C8C-0E19-4AA5-99BB-68E4284A43E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76D2C8C-0E19-4AA5-99BB-68E4284A43E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76D2C8C-0E19-4AA5-99BB-68E4284A43E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F248630-CF9A-46EE-B514-9D8F8694FDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F248630-CF9A-46EE-B514-9D8F8694FDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F248630-CF9A-46EE-B514-9D8F8694FDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F248630-CF9A-46EE-B514-9D8F8694FDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00710D3B-6FD4-4117-8E40-7ED5CB8DFAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00710D3B-6FD4-4117-8E40-7ED5CB8DFAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00710D3B-6FD4-4117-8E40-7ED5CB8DFAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00710D3B-6FD4-4117-8E40-7ED5CB8DFAFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{782749A1-9F08-4B99-96EE-7EB916F0D864} = {29128068-E496-41D0-B28E-0345F8706448}
 		{34ADA182-E73C-4EE6-B37A-BC5A9F598FDB} = {23CC3C3A-AD07-4829-9165-A363E6998CE4}
+		{D76D2C8C-0E19-4AA5-99BB-68E4284A43E3} = {1483E021-EEFF-494B-8BC5-69DFDE578B6D}
+		{5F248630-CF9A-46EE-B514-9D8F8694FDAA} = {1483E021-EEFF-494B-8BC5-69DFDE578B6D}
+		{00710D3B-6FD4-4117-8E40-7ED5CB8DFAFC} = {1483E021-EEFF-494B-8BC5-69DFDE578B6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6777F84A-0617-4D0A-9BE3-37927875031A}
